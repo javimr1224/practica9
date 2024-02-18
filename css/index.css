@@ -145,7 +145,7 @@ header a:hover {
 }
 
 #nuestros-programas h2 {
-    margin-top: 0;
+    margin-top: 30px;
     font-size: 3.2em;
 }
 
@@ -366,4 +366,18 @@ footer .container {
         background-image: url(/media/fondo1.jpg);
     }
 
+    .container-compra {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+    }
+
+    .compra {
+        font-family: Arial, sans-serif;
+        font-size: 3rem;
+        color: #333;
+        text-align: center;
+        text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    }
 }
